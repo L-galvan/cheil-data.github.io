@@ -1,3 +1,45 @@
-<a href="Iframe1.html">Ejemplo 1</a>
-<br>
-<a href="iframe2.html">Ejemplo 2</a>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  ul li {
+    float:left
+  }
+  ul {
+  	list-style-type: none;
+  	margin: 10;
+  	padding: 10;
+  }
+
+  li a{
+  	color: white;
+  	background: #2A2F30;
+  	height:80px;
+  	width: 150px;
+  	border-radius: 20px;
+  	text-align: center;
+  	font-size: 20px;
+  	font-weight: bold;
+  	text-decoration: none;
+  	padding-top: 40px;
+  	display: inline-block;
+      	border: 4px solid white;
+  }
+
+  li a:hover{
+  	background: #2FA2C4;
+  	border: 4px solid white;
+  }
+</style>
+</head>
+<body>
+  <div>
+  	<ul>
+  		<li id="left-container"><a href="Iframe1.html">Ejemplo 1</a></li>
+  		<li id="right-container"><a href="Iframe2.html">Ejemplo 2</a></li>
+  	</ul>
+  </div>
+</body>
+</html>
